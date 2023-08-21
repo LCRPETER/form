@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: fantasy;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./chipmunk-2323827_1920.jpg) center/cover;
+  min-height: 100vh;
+}
+form {
+  width: 400px;
+  height: 550px;
+  background: #00445fec;
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+form div {
+  margin: 30px 15px;
+}
+form .user-logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 300px;
+  text-align: center;
+  font-size: 5.5rem;
+  padding: 20px;
+  margin: -10px auto;
+  color: #f5f5f5;
+  background: #0080b37d;
+}
+form div label {
+  padding: 8px 10px;
+  padding-bottom: 8px;
+  font-size: 1.2rem;
+  color: #00445f;
+  margin-right: -4px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background: #b4b4b4;
+}
+form div input {
+  padding: 8px 8px;
+  width: 280px;
+  font-size: 1.2rem;
+  border: none;
+  color: #00445f;
+  border-radius: 0 5px 5px 0;
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #00445f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 50%;
+  transform: translate(-50%);
+  text-transform: uppercase;
+  background: #b4b4b4;
+  transition: all 0.5s ease;
+}
+form input[type="submit"]:hover {
+  padding: 12px 22px;
+  background: #006da0;
+  color: #f5f5f5;
+  transition: all 0.5s ease;
+}
